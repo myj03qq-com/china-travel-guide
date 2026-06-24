@@ -3,6 +3,11 @@
 <html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#fff7ed">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="中国旅游攻略">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="./manifest.json">
 <title>中国旅游攻略</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -1260,6 +1265,9 @@ var POPULAR = ["北京","上海","广州","成都","重庆","西安","杭州","�
   window.selectCity = selectCity;
 })();
 </script>
-
-
+<script>
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('./sw.js');
+}
+</script>
 </body></html>
