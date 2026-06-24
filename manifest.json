@@ -1,0 +1,18 @@
+{
+  "name": "中国旅游攻略",
+  "short_name": "旅游攻略",
+  "description": "发现美食 · 探索风景 · 畅行中国 - 83个城市旅游指南",
+  "start_url": "./中国旅游攻略.html",
+  "display": "standalone",
+  "background_color": "#fff7ed",
+  "theme_color": "#fff7ed",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "lang": "zh-CN"
+}
