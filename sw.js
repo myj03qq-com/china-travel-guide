@@ -1,6 +1,7 @@
 var CACHE = 'travel-guide-v1';
 var FILES = [
-  './中国旅游攻略.html',
+  './index.html',
+  './中国旅游攻略最新.html',
   './manifest.json'
 ];
 
